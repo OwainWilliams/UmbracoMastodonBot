@@ -38,6 +38,7 @@
         "dependencies": {
           "Mastonet": "3.1.1",
           "Umbraco.Cms.Core": "13.4.1",
+          "Umbraco.Cms.Web.BackOffice": "13.4.1",
           "Umbraco.Cms.Web.Common": "13.4.1",
           "Microsoft.AspNetCore.Antiforgery": "8.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "8.0.0.0",
@@ -2627,6 +2628,22 @@
         },
         "compile": {
           "lib/net8.0/Umbraco.PublishedCache.NuCache.dll": {}
+        }
+      },
+      "Umbraco.Cms.Web.BackOffice/13.4.1": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3",
+          "Serilog.AspNetCore": "8.0.1",
+          "Umbraco.Cms.Web.Common": "13.4.1"
+        },
+        "runtime": {
+          "lib/net8.0/Umbraco.Web.BackOffice.dll": {
+            "assemblyVersion": "13.4.1.0",
+            "fileVersion": "13.4.1.2"
+          }
+        },
+        "compile": {
+          "lib/net8.0/Umbraco.Web.BackOffice.dll": {}
         }
       },
       "Umbraco.Cms.Web.Common/13.4.1": {
@@ -5935,6 +5952,13 @@
       "sha512": "sha512-rBkzXOdMLd51xsoLaFDJYotMeR5/1bdAJ8mvR2BFDxLnFbZ/3GxJUuOIRILmzmSSmK/2uSt5LmZKq79RrBhd/w==",
       "path": "umbraco.cms.publishedcache.nucache/13.4.1",
       "hashPath": "umbraco.cms.publishedcache.nucache.13.4.1.nupkg.sha512"
+    },
+    "Umbraco.Cms.Web.BackOffice/13.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-41wR2d/I1jVzUzPsv3Yyk6JnVBLlumDIC/xQdUyDEQ/2upV0/t+Btxvea19kM/q2rojITaffRlFwWD2jbQPxpQ==",
+      "path": "umbraco.cms.web.backoffice/13.4.1",
+      "hashPath": "umbraco.cms.web.backoffice.13.4.1.nupkg.sha512"
     },
     "Umbraco.Cms.Web.Common/13.4.1": {
       "type": "package",

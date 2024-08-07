@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MastodonBot")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4d7ce51ef5278887e79eb3cc8073bb855abda4cb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+caf49e99e1a129e56959025d6d0cd08dd1b223f5")]
 [assembly: System.Reflection.AssemblyProductAttribute("MastodonBot")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MastodonBot")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -3745,6 +3745,27 @@
           }
         }
       },
+      "Umbraco.Cms.Web.BackOffice/13.4.1": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3",
+          "Serilog.AspNetCore": "8.0.1",
+          "Umbraco.Cms.Web.Common": "[13.4.1, 14.0.0)"
+        },
+        "compile": {
+          "lib/net8.0/Umbraco.Web.BackOffice.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Umbraco.Web.BackOffice.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Umbraco.Cms.Web.Common/13.4.1": {
         "type": "package",
         "dependencies": {
@@ -11343,6 +11364,19 @@
         "umbraco.cms.publishedcache.nucache.nuspec"
       ]
     },
+    "Umbraco.Cms.Web.BackOffice/13.4.1": {
+      "sha512": "41wR2d/I1jVzUzPsv3Yyk6JnVBLlumDIC/xQdUyDEQ/2upV0/t+Btxvea19kM/q2rojITaffRlFwWD2jbQPxpQ==",
+      "type": "package",
+      "path": "umbraco.cms.web.backoffice/13.4.1",
+      "files": [
+        ".nupkg.metadata",
+        "icon.png",
+        "lib/net8.0/Umbraco.Web.BackOffice.dll",
+        "lib/net8.0/Umbraco.Web.BackOffice.xml",
+        "umbraco.cms.web.backoffice.13.4.1.nupkg.sha512",
+        "umbraco.cms.web.backoffice.nuspec"
+      ]
+    },
     "Umbraco.Cms.Web.Common/13.4.1": {
       "sha512": "UVDU0ehf115AGdzl688wy7ToFypAG9CkRMqtJtv90bGMtVFsTR74uupqGSPKlfjZoGL35NEYD4BoZKauZbDySQ==",
       "type": "package",
@@ -11377,6 +11411,7 @@
     "net8.0": [
       "Mastonet >= 3.1.1",
       "Umbraco.Cms.Core >= 13.4.1",
+      "Umbraco.Cms.Web.BackOffice >= 13.4.1",
       "Umbraco.Cms.Web.Common >= 13.4.1"
     ]
   },
@@ -11386,11 +11421,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\dev\\personal\\owaincodes-dev\\dev-owain-codes\\MastodonBot\\MastodonBot.csproj",
+      "projectUniqueName": "C:\\dev\\personal\\UmbracoMastodonBot\\MastodonBot\\MastodonBot.csproj",
       "projectName": "MastodonBot",
-      "projectPath": "C:\\dev\\personal\\owaincodes-dev\\dev-owain-codes\\MastodonBot\\MastodonBot.csproj",
+      "projectPath": "C:\\dev\\personal\\UmbracoMastodonBot\\MastodonBot\\MastodonBot.csproj",
       "packagesPath": "C:\\Users\\owaine.williams\\.nuget\\packages\\",
-      "outputPath": "C:\\dev\\personal\\owaincodes-dev\\dev-owain-codes\\MastodonBot\\obj\\",
+      "outputPath": "C:\\dev\\personal\\UmbracoMastodonBot\\MastodonBot\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\dev\\personal\\owaincodes-dev\\dev-owain-codes\\NuGet.Config",
@@ -11435,6 +11470,10 @@
             "version": "[3.1.1, )"
           },
           "Umbraco.Cms.Core": {
+            "target": "Package",
+            "version": "[13.4.1, )"
+          },
+          "Umbraco.Cms.Web.BackOffice": {
             "target": "Package",
             "version": "[13.4.1, )"
           },

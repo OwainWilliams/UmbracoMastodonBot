@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "J+pIxHur1/Ce3Or5g8pdr2Am3sxoa3QQUsYxD6ElaNg69ADdI8p/zLgJ2uJiRfpKYbE+q20EehYfpSZdN1q5+g==",
+  "dgSpecHash": "oQvJ1Xr+2fBtkc8lPadwzjlvGHrhYPP9faG9uAVViEJ+n/5z3SRMeJHFHEUedNYVmI5tF97b1lIxrTfkXIaDJQ==",
   "success": true,
-  "projectFilePath": "C:\\dev\\personal\\owaincodes-dev\\dev-owain-codes\\MastodonBot\\MastodonBot.csproj",
+  "projectFilePath": "C:\\dev\\personal\\UmbracoMastodonBot\\MastodonBot\\MastodonBot.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\owaine.williams\\.nuget\\packages\\asp.versioning.abstractions\\7.0.0\\asp.versioning.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\owaine.williams\\.nuget\\packages\\asp.versioning.http\\7.1.0\\asp.versioning.http.7.1.0.nupkg.sha512",
@@ -212,6 +212,7 @@
     "C:\\Users\\owaine.williams\\.nuget\\packages\\umbraco.cms.examine.lucene\\13.4.1\\umbraco.cms.examine.lucene.13.4.1.nupkg.sha512",
     "C:\\Users\\owaine.williams\\.nuget\\packages\\umbraco.cms.infrastructure\\13.4.1\\umbraco.cms.infrastructure.13.4.1.nupkg.sha512",
     "C:\\Users\\owaine.williams\\.nuget\\packages\\umbraco.cms.publishedcache.nucache\\13.4.1\\umbraco.cms.publishedcache.nucache.13.4.1.nupkg.sha512",
+    "C:\\Users\\owaine.williams\\.nuget\\packages\\umbraco.cms.web.backoffice\\13.4.1\\umbraco.cms.web.backoffice.13.4.1.nupkg.sha512",
     "C:\\Users\\owaine.williams\\.nuget\\packages\\umbraco.cms.web.common\\13.4.1\\umbraco.cms.web.common.13.4.1.nupkg.sha512",
     "C:\\Users\\owaine.williams\\.nuget\\packages\\umbraco.csharptest.net.collections\\15.0.0\\umbraco.csharptest.net.collections.15.0.0.nupkg.sha512"
   ],

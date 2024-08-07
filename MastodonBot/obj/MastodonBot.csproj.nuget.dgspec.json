@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dev\\personal\\owaincodes-dev\\dev-owain-codes\\MastodonBot\\MastodonBot.csproj": {}
+    "C:\\dev\\personal\\UmbracoMastodonBot\\MastodonBot\\MastodonBot.csproj": {}
   },
   "projects": {
-    "C:\\dev\\personal\\owaincodes-dev\\dev-owain-codes\\MastodonBot\\MastodonBot.csproj": {
+    "C:\\dev\\personal\\UmbracoMastodonBot\\MastodonBot\\MastodonBot.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\personal\\owaincodes-dev\\dev-owain-codes\\MastodonBot\\MastodonBot.csproj",
+        "projectUniqueName": "C:\\dev\\personal\\UmbracoMastodonBot\\MastodonBot\\MastodonBot.csproj",
         "projectName": "MastodonBot",
-        "projectPath": "C:\\dev\\personal\\owaincodes-dev\\dev-owain-codes\\MastodonBot\\MastodonBot.csproj",
+        "projectPath": "C:\\dev\\personal\\UmbracoMastodonBot\\MastodonBot\\MastodonBot.csproj",
         "packagesPath": "C:\\Users\\owaine.williams\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\personal\\owaincodes-dev\\dev-owain-codes\\MastodonBot\\obj\\",
+        "outputPath": "C:\\dev\\personal\\UmbracoMastodonBot\\MastodonBot\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\dev\\personal\\owaincodes-dev\\dev-owain-codes\\NuGet.Config",
@@ -56,6 +56,10 @@
               "version": "[3.1.1, )"
             },
             "Umbraco.Cms.Core": {
+              "target": "Package",
+              "version": "[13.4.1, )"
+            },
+            "Umbraco.Cms.Web.BackOffice": {
               "target": "Package",
               "version": "[13.4.1, )"
             },
