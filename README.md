@@ -50,7 +50,11 @@ You'll probably want to call your database something different, you can do that 
 
 ## API Endpoints
 
-The main endpoint is `/umbraco/api/mastodon/BoostAndFavorite?hashtag=h5yr`and you can change the hashtag to suit your needs, for example, if you want to favourite and boost toots with the hashtag umbraco, just change the parameter to be `hashtag=umbraco`
+These endpoints require the user to be logged in to the backoffice - to test, log in to Umbraco and then hit the url in your browser.
+
+The main endpoint is `umbraco/backoffice/boost/hashtag/{hashtag}`and you can change the hashtag to suit your needs, for example, if you want to favourite and boost toots with the hashtag umbraco, just change the parameter to be `/hashtag/umbraco`
+
+
 
 There is also an Toot endpoint which allows you to toot from your account via the API. It can be found in the `MastodonController.cs` - `PostToot`
 
