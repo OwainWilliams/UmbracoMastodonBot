@@ -11428,7 +11428,6 @@
       "outputPath": "C:\\dev\\personal\\UmbracoMastodonBot\\MastodonBot\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\dev\\personal\\owaincodes-dev\\dev-owain-codes\\NuGet.Config",
         "C:\\Users\\owaine.williams\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
