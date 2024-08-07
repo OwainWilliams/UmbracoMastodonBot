@@ -10,7 +10,7 @@ You will require a mastodon account and have the API keys, details can be found 
 
 Clone down this project and add it to your own solution. 
 
-![Image](assets/addToSolution.png)
+![Image](.git/images/addToSolution.png)
 
 You should then add a reference to this project from your own project `Project > Add > Add Project Reference` Tick the box that says MastodonBot.
 
