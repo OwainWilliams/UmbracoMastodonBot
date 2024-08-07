@@ -1,0 +1,91 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\dev\\personal\\owaincodes-dev\\dev-owain-codes\\MastodonBot\\MastodonBot.csproj": {}
+  },
+  "projects": {
+    "C:\\dev\\personal\\owaincodes-dev\\dev-owain-codes\\MastodonBot\\MastodonBot.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\dev\\personal\\owaincodes-dev\\dev-owain-codes\\MastodonBot\\MastodonBot.csproj",
+        "projectName": "MastodonBot",
+        "projectPath": "C:\\dev\\personal\\owaincodes-dev\\dev-owain-codes\\MastodonBot\\MastodonBot.csproj",
+        "packagesPath": "C:\\Users\\owaine.williams\\.nuget\\packages\\",
+        "outputPath": "C:\\dev\\personal\\owaincodes-dev\\dev-owain-codes\\MastodonBot\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\dev\\personal\\owaincodes-dev\\dev-owain-codes\\NuGet.Config",
+          "C:\\Users\\owaine.williams\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\dev\\gibe\\Prima8\\legacypackages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://teamcity.office.gibe.digital/guestAuth/app/nuget/feed/GibeCommerce/gibecommerce/v2": {},
+          "https://teamcity.office.gibe.digital/guestAuth/app/nuget/feed/GibeNuget/GibePackages/v2": {},
+          "https://teamcity.office.gibe.digital/guestAuth/app/nuget/feed/_Root/default/v2": {},
+          "https://www.myget.org/F/umbracoprereleases/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Mastonet": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Umbraco.Cms.Core": {
+              "target": "Package",
+              "version": "[13.4.1, )"
+            },
+            "Umbraco.Cms.Web.Common": {
+              "target": "Package",
+              "version": "[13.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
