@@ -9,7 +9,7 @@ using Umbraco.Cms.Infrastructure.Migrations.Upgrade;
 
 namespace MastodonBot.Mastodon.Database
 {
-	public class MastodonTootTrackingDBComponent : IComponent, Umbraco.Cms.Core.Composing.IComponent
+	public class MastodonTootTrackingDBComponent : IComponent
 	{
 		private readonly ICoreScopeProvider _coreScopeProvider;
 		private readonly IMigrationPlanExecutor _migrationPlanExecutor;
