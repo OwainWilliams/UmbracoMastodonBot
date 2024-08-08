@@ -2,7 +2,7 @@
 
 namespace MastodonBot.Mastodon.Database
 {
-	public class MastodonTootTrackingDbComposer : ComponentComposer<MastodonTootTrackingDBComponent>
+	public class MastodonTootTrackingDbComposer : ComponentComposer<MastodonTootTrackingDbComponent>
 	{
 	}
 }

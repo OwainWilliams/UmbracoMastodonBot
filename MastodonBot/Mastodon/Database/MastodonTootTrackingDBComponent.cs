@@ -1,6 +1,6 @@
 ﻿using MastodonBot.Mastodon.Migrations;
-using Microsoft.AspNetCore.Components;
 using Umbraco.Cms.Core;
+using Umbraco.Cms.Core.Composing;
 using Umbraco.Cms.Core.Migrations;
 using Umbraco.Cms.Core.Scoping;
 using Umbraco.Cms.Core.Services;
@@ -9,25 +9,20 @@ using Umbraco.Cms.Infrastructure.Migrations.Upgrade;
 
 namespace MastodonBot.Mastodon.Database
 {
-	public class MastodonTootTrackingDBComponent : IComponent
+	public class MastodonTootTrackingDbComponent : IComponent
 	{
 		private readonly ICoreScopeProvider _coreScopeProvider;
 		private readonly IMigrationPlanExecutor _migrationPlanExecutor;
 		private readonly IKeyValueService _keyValueService;
 		private readonly IRuntimeState _runtimeState;
 
-		public MastodonTootTrackingDBComponent(ICoreScopeProvider coreScopeProvider,
+		public MastodonTootTrackingDbComponent(ICoreScopeProvider coreScopeProvider,
 			IMigrationPlanExecutor migrationPlanExecutor, IKeyValueService keyValueService, IRuntimeState runtimeState)
 		{
 			_coreScopeProvider = coreScopeProvider ?? throw new ArgumentNullException(nameof(coreScopeProvider));
 			_migrationPlanExecutor = migrationPlanExecutor ?? throw new ArgumentNullException(nameof(migrationPlanExecutor));
 			_keyValueService = keyValueService ?? throw new ArgumentNullException(nameof(keyValueService));
 			_runtimeState = runtimeState ?? throw new ArgumentNullException(nameof(runtimeState));
-		}
-
-		public void Attach(RenderHandle renderHandle)
-		{
-			throw new NotImplementedException();
 		}
 
 		public void Initialize()
@@ -50,11 +45,6 @@ namespace MastodonBot.Mastodon.Database
 			// Based on the current/latest step
 			var upgrader = new Upgrader(migrationPlan);
 			upgrader.Execute(_migrationPlanExecutor, _coreScopeProvider, _keyValueService);
-		}
-
-		public Task SetParametersAsync(ParameterView parameters)
-		{
-			throw new NotImplementedException();
 		}
 
 		public void Terminate()
