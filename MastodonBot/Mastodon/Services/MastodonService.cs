@@ -39,7 +39,7 @@ namespace MastodonBot.Mastodon.Services
 		}
 
 		[HttpGet]
-		public async Task BoostAndFavoritePostsWithHashtagAsync(string hashtag = "h5yr")
+		public async Task BoostAndFavoritePostsWithHashtagAsync(string hashtag)
 		{
 			var allStatuses = new List<Status>();
 
@@ -69,6 +69,11 @@ namespace MastodonBot.Mastodon.Services
 
 					// Favorite the status
 					await _client.Favourite(status.Id);
+
+					// Toot a thank you
+					var replyContent = $"@{status.Account.AccountName} Thank you for using the {hashtag} hashtag! Check out https://h5yr.com";
+
+					await _client.PublishStatus(replyContent, replyStatusId: status.Id);
 
 					_statusRecordRepository.AddTootStatusToDb(new TootStatusModel
 					{
