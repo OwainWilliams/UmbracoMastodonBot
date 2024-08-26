@@ -1,3 +1,6 @@
+
+<img src=".github/images/logo.png" alt="drawing" width="200"/>
+
 # UmbracoMastodonBot
 A bot that boosts and favourites toots that use a specific hashtag
 
